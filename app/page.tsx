@@ -17,7 +17,8 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Cosmic Cowboys',
     description: 'A frame telling the story of Cosmic Cowboys',
-    images: [`${process.env.NEXT_PUBLIC_GATEWAY_URL}/ipfs/Qme4FXhoxHHfyzTfRxSpASbMF8kajLEPkRQWhwWu9pkUjm/0.png`],
+    video:["https://sample-videos.com/video321/mp4/720/big_buck_bunny_720p_1mb.mp4"],
+    // images: [`${process.env.NEXT_PUBLIC_GATEWAY_URL}/ipfs/Qme4FXhoxHHfyzTfRxSpASbMF8kajLEPkRQWhwWu9pkUjm/0.png`],
   },
   other: {
     ...frameMetadata,
